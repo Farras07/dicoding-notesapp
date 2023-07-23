@@ -62,8 +62,8 @@ class UsersHandler {
               status: 'fail',
               message: error.message,
             });
-        response.code(error.statusCode);
-        return response;
+            response.code(error.statusCode);
+            return response;
         }
      
           // server ERROR!
